@@ -1,0 +1,41 @@
+name: lesehan
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_staggered_animations: ^1.0.0
+  image_picker: ^0.8.4+3
+  shared_preferences: ^2.0.6
+  intl: ^0.17.0
+
+
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  assets:
+  - assets/nasi_pecel.jpg
+  - assets/ayam_panggang.jpg
+  - assets/ikan_bakar.jpg
+  - assets/rawon.jpg
+  - assets/lalapan_ikan.jpg
+
+  uses-material-design: true
